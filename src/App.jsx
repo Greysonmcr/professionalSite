@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { projects } from "./data/projects";
 import ProjectDetail from "./pages/projectDetail";
 import { profile } from "./data/profile";
+import { Analytics } from "@vercel/analytics/react";
 
 const educationGrad = [
   {
@@ -492,6 +493,7 @@ function Home() {
 export default function App() {
   return (
     <BrowserRouter>
+      <Analytics />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/:slug" element={<ProjectDetail />} />
