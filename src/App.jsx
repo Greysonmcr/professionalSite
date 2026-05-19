@@ -1,12 +1,12 @@
 import React, { useEffect, useMemo, useState } from "react";
-import headshot from "./assets/headshot.jpg";
+import headshot from "./assets/headshot.JPG";
 import gatech from "./assets/Georgia-Tech-Yellow-Jackets-Logo-2015.png";
 import cox from "./assets/Cox_Enterprises.jpg";
 import amarok from "./assets/Amarok-logo.jpg";
 import cboe from "./assets/cboe-logo.png";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { projects } from "./data/projects";
-import ProjectDetail from "./pages/ProjectDetail";
+import ProjectDetail from "./pages/projectDetail";
 import { profile } from "./data/profile";
 
 const educationGrad = [
