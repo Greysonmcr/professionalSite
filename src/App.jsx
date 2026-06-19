@@ -58,8 +58,9 @@ const experiences = [
     role: "Software Engineering in Test Intern",
     company: "CBoe Global Markets",
     logo: cboe,
-    dates: "Incoming",
+    dates: "June 2026 - Present",
     bullets: [
+      "Implementing Playwright-based test suites for an internal application, improving automated test coverage",
     ],
   },
   {
