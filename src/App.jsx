@@ -44,13 +44,11 @@ const skills = [
   "JavaScript",
   "React",
   "Flask",
-  "Supabase",
   "SQL",
   "PyTorch",
-  "Spark",
-  "D3.js",
   "Git",
-  "AWS",
+  "Playwright",
+  "Cucumber"
 ];
 
 const experiences = [
@@ -60,7 +58,8 @@ const experiences = [
     logo: cboe,
     dates: "June 2026 - Present",
     bullets: [
-      "Implementing Playwright-based test suites for an internal application, improving automated test coverage",
+      "Developed automated end-to-end test cases using Playwright and Cucumber, validating critical application behavior",
+      "Integrated tests into the CI/CD pipeline, enabling regression testing on pull requests to identify defects"
     ],
   },
   {
