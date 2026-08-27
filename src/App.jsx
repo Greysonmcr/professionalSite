@@ -19,7 +19,7 @@ const educationGrad = [
     details: [
       "GPA: 4.00",
       "Concentrations: Artificial Intelligence",
-      "Relevant Coursework: Conversational AI, Human Computer Interaction, ML in Computational Biology"
+      "Relevant Coursework: Conversational AI, Data Vis. & Analytics, Human and Machine Learning, Comp. Model Algorithms"
     ],
   },
 ];
@@ -54,12 +54,13 @@ const skills = [
 const experiences = [
   {
     role: "Software Engineering in Test Intern",
-    company: "CBoe Global Markets",
+    company: "Cboe Global Markets",
     logo: cboe,
-    dates: "June 2026 - Present",
+    dates: "June 2026 - August 2026",
     bullets: [
       "Developed automated end-to-end test cases using Playwright and Cucumber, validating critical application behavior",
-      "Integrated tests into the CI/CD pipeline, enabling regression testing on pull requests to identify defects"
+      "Integrated tests into the CI/CD pipeline through Jenkins, enabling regression testing on pull requests to identify defects",
+      "Won an intern-wide pitch competition by proposing a novel Gen Z options trading product projected to generate $6M/quarter",
     ],
   },
   {
@@ -68,10 +69,9 @@ const experiences = [
     logo: amarok,
     dates: "May 2025 - September 2025",
     bullets: [
-      "Developed custom transformer model in Databricks for predicting severity of incoming alarm signals with 90% accuracy",
-      "Repurposed HuggingFace NLP model to classify field technician notes with 97% accuracy",
-      "Automated Databricks jobs via custom Microsoft Teams bot and Databricks API",
-      "Regularly evaluated the efficacy of incoming AI technologies on behalf of the company",
+      "Engineered transformer model with Databricks MLFlow to predict severity of incoming alarm signals with 0.71 F1 score",
+      "Repurposed HuggingFace Sentiment Analysis BERT model to classify problem severity from field notes with 97% accuracy",
+      "Performed weekly evaluations of incoming AI-powered SaaS technologies on behalf of the company",
     ],
   },
   {
